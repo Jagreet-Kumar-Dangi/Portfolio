@@ -1,5 +1,3 @@
-import cvAsset from "@/assets/cv.pdf.asset.json";
-import photoAsset from "@/assets/jagreet-photo.png.asset.json";
 
 export const profile = {
   name: "Jagreet Kumar Dangi",
@@ -7,7 +5,7 @@ export const profile = {
   tagline:
     "Computer Science and Engineering student focused on software development, AI, and data structures and algorithms — building with React and TypeScript, and practising problem solving every day.",
   photo: "/profile.png",
-  cv: cvAsset.url,
+  cv: "/Jagreet_Kumar_Dangi_CV.pdf",
   email: "jagreetgangi2007@gmail.com",
   phone: "6204085054",
   linkedin: "https://linkedin.com/in/jagreet-kumar-dangi",
@@ -60,8 +58,8 @@ export const project = {
     "Deployed the application using Firebase Hosting.",
   ],
   stack: ["React", "TypeScript", "Vite", "Tailwind CSS", "Firebase"],
-  repoUrl: "",
-  liveUrl: "",
+  repoUrl: "https://github.com/Jagreet-Kumar-Dangi/Project1",
+  liveUrl: "https://movie-web-ca28c.web.app/",
 };
 
 export const achievements = [
