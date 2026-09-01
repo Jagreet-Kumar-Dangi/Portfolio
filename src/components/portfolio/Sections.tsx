@@ -138,14 +138,34 @@ export function Projects() {
 
 export function Achievements() {
   return (
-    <Section id="achievements" eyebrow="Problem Solving" title="Achievements in numbers">
+    <Section
+      id="achievements"
+      eyebrow="Problem Solving"
+      title="Achievements in numbers"
+    >
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {achievements.map((item) => (
-          <Card key={item.title}>
-            <p className="font-display text-3xl font-bold text-primary">{item.value}</p>
-            <h3 className="mt-3 text-sm font-semibold">{item.title}</h3>
-            <p className="mt-2 text-xs leading-relaxed text-muted-foreground">{item.detail}</p>
-          </Card>
+          <a
+            key={item.title}
+            href={item.link}
+            target="_blank"
+            rel="noreferrer"
+            className="block cursor-pointer transition-transform duration-300 hover:-translate-y-1"
+          >
+            <Card>
+              <p className="font-display text-3xl font-bold text-primary">
+                {item.value}
+              </p>
+
+              <h3 className="mt-3 text-sm font-semibold">
+                {item.title}
+              </h3>
+
+              <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
+                {item.detail}
+              </p>
+            </Card>
+          </a>
         ))}
       </div>
     </Section>
