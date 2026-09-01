@@ -69,21 +69,25 @@ export const achievements = [
     value: "150+",
     title: "LeetCode problems",
     detail: "Data Structures and Algorithms problems solved on LeetCode.",
+    link: "https://leetcode.com/u/Jagreet1/",
   },
   {
     value: "70+",
     title: "Day coding streak",
     detail: "Consistent daily problem-solving practice.",
+    link: "https://leetcode.com/u/Jagreet1/",
   },
   {
     value: "70+",
     title: "GeeksforGeeks problems",
     detail: "Coding problems completed on GeeksforGeeks.",
+    link: "https://www.geeksforgeeks.org/profile/jagreetdangi2007",
   },
   {
     value: "3★ / 2★",
     title: "HackerRank rating",
     detail: "3-Star rating in C++ and 2-Star rating in Java.",
+    link: "https://www.hackerrank.com/profile/jagreetdangi2007",
   },
 ];
 
