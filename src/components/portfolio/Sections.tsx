@@ -174,26 +174,34 @@ export function Achievements() {
 
 export function Certifications() {
   return (
-    <Section id="certifications" eyebrow="Certifications" title="Verified credentials">
-      <div className="grid gap-5 sm:grid-cols-2">
-        {certifications.map((cert) => (
-          <Card key={cert.name}>
-            <Award className="size-5 text-primary" aria-hidden="true" />
-            <h3 className="mt-4 text-sm font-semibold leading-snug">{cert.name}</h3>
-            <p className="mt-2 text-xs text-muted-foreground">
-              {cert.issuer} · {cert.date}
-            </p>
-            {cert.url && (
-              <a
-                href={cert.url}
-                target="_blank"
-                rel="noreferrer"
-                className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-primary hover:underline"
-              >
-                Verify <ExternalLink className="size-3" aria-hidden="true" />
-              </a>
-            )}
-          </Card>
+    <Section
+      id="certifications"
+      eyebrow="Credentials"
+      title="Certifications"
+    >
+      <div className="grid gap-5 md:grid-cols-2">
+        {certifications.map((item) => (
+          <a
+            key={item.title}
+            href={item.link}
+            target="_blank"
+            rel="noreferrer"
+            className="block cursor-pointer transition-transform duration-300 hover:-translate-y-1"
+          >
+            <Card>
+              <p className="text-xs font-medium uppercase tracking-wider text-primary">
+                {item.issuer}
+              </p>
+
+              <h3 className="mt-3 text-base font-semibold">
+                {item.title}
+              </h3>
+
+              <p className="mt-4 text-sm font-medium text-primary">
+                View Certificate →
+              </p>
+            </Card>
+          </a>
         ))}
       </div>
     </Section>

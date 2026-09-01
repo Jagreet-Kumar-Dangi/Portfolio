@@ -93,28 +93,24 @@ export const achievements = [
 
 export const certifications = [
   {
-    name: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+    title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
     issuer: "Oracle",
-    date: "Oct 2025",
-    url: "",
+    link: "/certificates/oracle-generative-ai.pdf",
   },
   {
-    name: "Oracle Agentic AI Certified Foundations Associate",
+    title: "Oracle Agentic AI Certified Foundations Associate",
     issuer: "Oracle",
-    date: "July 2026",
-    url: "",
+    link: "/certificates/oracle-agentic-ai.pdf",
   },
   {
-    name: "Technology Job Simulation",
+    title: "Technology Job Simulation",
     issuer: "Deloitte / Forage",
-    date: "July 2026",
-    url: "",
+    link: "/certificates/deloitte-forage.pdf",
   },
   {
-    name: "CS50's Introduction to Programming with Python",
+    title: "CS50's Introduction to Programming with Python",
     issuer: "Harvard University",
-    date: "Aug 2026",
-    url: "",
+    link: "/certificates/harvard-cs50-python.pdf",
   },
 ];
 
