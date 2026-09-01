@@ -318,13 +318,4 @@ export function Contact() {
   );
 }
 
-export function Footer() {
-  return (
-    <footer className="border-t border-border/60 py-8">
-      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-5 text-xs text-muted-foreground">
-        <p>© {new Date().getFullYear()} Jagreet Kumar Dangi</p>
-        <p>Built with React, TypeScript and Tailwind CSS</p>
-      </div>
-    </footer>
-  );
-}
+
