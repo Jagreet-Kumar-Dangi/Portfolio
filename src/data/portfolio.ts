@@ -116,7 +116,7 @@ export const training = {
   title: "Community Development Project",
   organization: "Times Foundation × Lovely Professional University",
   date: "July 2026",
-  url: "",
+  certificate: "/certificates/community-development-certificate.pdf",
   bullets: [
     "Coordinated the organization of a quiz event involving approximately 250 students as part of a Community Development Project.",
     "Supported participant management and event execution to facilitate the smooth conduct of the initiative.",

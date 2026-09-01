@@ -228,16 +228,17 @@ export function Training() {
             </li>
           ))}
         </ul>
-        {training.url && (
-          <a
-            href={training.url}
-            target="_blank"
-            rel="noreferrer"
-            className="mt-6 inline-flex items-center gap-1.5 text-xs font-medium text-primary hover:underline"
-          >
-            View details <ExternalLink className="size-3" aria-hidden="true" />
-          </a>
-        )}
+        {training.certificate && (
+        <a
+          href={training.certificate}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-6 inline-flex items-center gap-1.5 text-xs font-medium text-primary hover:underline"
+        >
+          View Certificate
+          <ExternalLink className="size-3" aria-hidden="true" />
+        </a>
+      )}
       </Card>
     </Section>
   );
