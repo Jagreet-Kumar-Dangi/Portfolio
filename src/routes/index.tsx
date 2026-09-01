@@ -8,7 +8,6 @@ import {
   Certifications,
   Contact,
   Education,
-  Footer,
   Projects,
   Skills,
   Training,
@@ -80,7 +79,6 @@ function Index() {
         <Education />
         <Contact />
       </main>
-      <Footer />
     </div>
   );
 }
