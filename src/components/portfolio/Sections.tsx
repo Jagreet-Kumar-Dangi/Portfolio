@@ -1,5 +1,5 @@
 import { ExternalLink, Github, Mail, MapPin, Phone, Award, Users, Linkedin, Download } from "lucide-react";
-
+import { LeetCodeActivity } from "./LeetCodeActivity";
 import { Card, Section } from "./Section";
 import {
   achievements,
@@ -167,6 +167,11 @@ export function Achievements() {
             </Card>
           </a>
         ))}
+      </div>
+
+      {/* LeetCode Live Activity */}
+      <div className="mt-8">
+        <LeetCodeActivity />
       </div>
     </Section>
   );
